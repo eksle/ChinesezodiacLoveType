@@ -2,4 +2,47 @@
 	display: none;
 }
 
-.
+.qBox{
+	background: whitesmoke;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 24px;
+	width: 80%;
+}
+
+.answerList{
+	background: whitesmoke;
+	border-radius: 20px;
+	display: block;
+	width: 80%;
+	border: 0px;
+	font-size: 20px;
+}
+
+.answerList:hover, answerList:focus{
+	background-color: #FFFFD2;
+	color: black;
+}
+
+
+.status{
+	height: 20px;
+	width: 80%;
+	background-color: whitesmoke;
+	border-radius: 20px;
+}
+
+.statusBar{
+	height: 100%;
+	border-radius: 20px;
+	background: #f8ffdd;
+	background: -moz-linear-gradient(top,  #f8ffdd 0%, #f4ffcc 31%, #d2e88d 100%); 
+	background: -webkit-linear-gradient(top,  #f8ffdd 0%,#f4ffcc 31%,#d2e88d 100%); 
+	background: linear-gradient(to bottom,  #f8ffdd 0%,#f4ffcc 31%,#d2e88d 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient startColorstr='#f8ffdd', 	endColorstr='#d2e88d',GradientType=0 ;
+
+
+
+
+
+}
