@@ -68,7 +68,7 @@ function addAnswer(answerText, qIdx, idx){
       }
       
   setTimeout(() => {
-    select[qIdx] = idx;
+    var target = qnaList[qIdx].a[idx].type;
     for(let i = 0; i < children.length; i++){          
       children[i].style.display = 'none';
       }
