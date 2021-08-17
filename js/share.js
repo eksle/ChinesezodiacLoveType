@@ -1,4 +1,4 @@
-﻿const url = 'https://chinesezodiaclovetype.netlify.app/';
+const url = 'https://chinesezodiaclovetype.netlify.app/';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
